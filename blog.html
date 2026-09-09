@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The AI Spectrum</title>
+        <meta
+            name="description"
+            content="The AI Spectrum is a technology and AI blog covering interfaces, systems design, and the craft of building useful software."
+        />
+        <meta property="og:title" content="The AI Spectrum" />
+        <meta
+            property="og:description"
+            content="Short essays on AI, technology, interfaces, and the systems that make thoughtful work possible."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://example.com/blog-project/blog.html" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
+        />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body data-page="blog">
+        <div class="page-shell">
+            <header class="site-header">
+                <div class="content-width site-header-inner">
+                    <a class="brand" href="blog.html" aria-label="The AI Spectrum home">
+                        <span class="brand-kicker">Field Notes</span>
+                        <span class="brand-name">Signal &amp; Structure</span>
+                    </a>
+
+                    <nav class="site-nav" aria-label="Primary navigation">
+                        <a href="blog.html" aria-current="page">Essays</a>
+                        <a href="#about">About</a>
+                    </nav>
+                </div>
+            </header>
+
+            <main id="main" class="content-width">
+                <section class="page-intro">
+                    <p class="eyebrow">Technology / AI / Interfaces</p>
+                    <h1>The best systems are built for humans first.</h1>
+                    <p>
+                        Short essays on modern software, responsible AI, and the small design decisions that make
+                        complex tools feel usable.
+                    </p>
+                </section>
+
+                <section class="blog-layout" aria-label="Blog posts">
+                    <div class="blog-index" data-blog-list></div>
+                </section>
+
+                <article class="article-shell" data-article-mount aria-live="polite"></article>
+            </main>
+
+            <footer id="about" class="site-footer content-width">
+                <p>
+                    Signal &amp; Structure is a small editorial blog about technology, AI, and the craft of building
+                    useful tools.
+                </p>
+            </footer>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.11/purify.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

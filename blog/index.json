@@ -1,0 +1,25 @@
+{
+    "posts": [
+        {
+            "title": "The Case for Quiet AI",
+            "date": "2026-09-01",
+            "excerpt": "AI works best when it is calm, useful, and respectful of the craft it is helping with.",
+            "path": "the-case-for-quiet-ai.md",
+            "slug": "the-case-for-quiet-ai"
+        },
+        {
+            "title": "What Good AI Looks Like in a Team",
+            "date": "2026-08-20",
+            "excerpt": "Strong AI adoption is less about hype and more about clear workflows, boundaries, and trust.",
+            "path": "what-good-ai-looks-like-in-a-team.md",
+            "slug": "what-good-ai-looks-like-in-a-team"
+        },
+        {
+            "title": "Why Interfaces Matter More Than Models",
+            "date": "2026-08-08",
+            "excerpt": "A great model can still fail if the product around it is confusing, slow, or emotionally exhausting.",
+            "path": "why-interfaces-matter-more-than-models.md",
+            "slug": "why-interfaces-matter-more-than-models"
+        }
+    ]
+}
