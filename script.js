@@ -83,7 +83,7 @@ function renderBlogList(posts) {
     blogList.innerHTML = posts
         .map(
             (post) => `
-        <a class="blog-card" href="blog.html?post=${post.slug}">
+        <a class="blog-card" href="./?post=${encodeURIComponent(post.slug)}">
           <span class="blog-card-meta">
             <time datetime="${post.date}">${formatDate(post.date)}</time>
             <span>${post.readingTime} min read</span>
@@ -121,10 +121,10 @@ async function renderArticle(post) {
     setMeta('description', post.excerpt || 'A Signal & Structure essay.', false);
     setMeta('og:title', `${post.title} | Signal & Structure`, true);
     setMeta('og:description', post.excerpt || 'A Signal & Structure essay.', true);
-    setCanonical(`https://example.com/blog-project/blog.html?post=${post.slug}`);
+    setCanonical(new URL(`./?post=${encodeURIComponent(post.slug)}`, window.location.href).href);
 
     articleMount.innerHTML = `
-    <a class="article-back-link" href="blog.html">
+    <a class="article-back-link" href="./">
       <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
       <span>Back to all essays</span>
     </a>
