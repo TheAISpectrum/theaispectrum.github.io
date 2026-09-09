@@ -1,77 +1,72 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>The AI Spectrum</title>
-        <meta
-            name="description"
-            content="The AI Spectrum is a technology and AI blog covering interfaces, systems design, and the craft of building useful software."
-        />
-        <meta property="og:title" content="The AI Spectrum" />
-        <meta
-            property="og:description"
-            content="Short essays on AI, technology, interfaces, and the systems that make thoughtful work possible."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://example.com/blog-project/blog.html" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css"
-        />
-        <link rel="stylesheet" href="styles.css" />
-    </head>
-    <body data-page="blog">
-        <div class="page-shell">
-            <header class="site-header">
-                <div class="content-width site-header-inner">
-                    <a class="brand" href="./" aria-label="The AI Spectrum home">
-                        <span class="brand-kicker">Field Notes</span>
-                        <span class="brand-name">Signal &amp; Structure</span>
-                    </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07090d" />
+  <meta name="description" content="The AI Spectrum examines the physical systems behind AI, how to use AI with intention, and the consequences that follow." />
+  <meta property="og:title" content="The AI Spectrum" />
+  <meta property="og:description" content="AI, across the full spectrum: infrastructure, use, and impact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://theaispectrum.github.io/" />
+  <link rel="canonical" href="https://theaispectrum.github.io/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>The AI Spectrum</title>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header" data-site-header>
+      <div class="header-inner">
+        <a class="wordmark spa-link" href="/" aria-label="The AI Spectrum home">
+          <span class="wordmark-the">THE</span>
+          <span class="wordmark-ai">AI</span>
+          <span class="wordmark-spectrum">SPECTRUM</span>
+          <span class="wordmark-mark" aria-hidden="true"></span>
+        </a>
 
-                    <nav class="site-nav" aria-label="Primary navigation">
-                        <a href="./" aria-current="page">Essays</a>
-                        <a href="#about">About</a>
-                    </nav>
-                </div>
-            </header>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle>
+          <span></span><span></span>
+        </button>
 
-            <main id="main" class="content-width">
-                <section class="page-intro">
-                    <p class="eyebrow">Technology / AI / Interfaces</p>
-                    <h1>The best systems are built for humans first.</h1>
-                    <p>
-                        Short essays on modern software, responsible AI, and the small design decisions that make
-                        complex tools feel usable.
-                    </p>
-                </section>
+        <nav class="site-nav" aria-label="Primary navigation" data-site-nav>
+          <a class="spa-link" href="/" data-route="/">Home</a>
+          <a class="spa-link nav-infrastructure" href="/implementation-of-ai" data-route="/implementation-of-ai">AI Infrastructure</a>
+          <a class="spa-link nav-use" href="/using-ai-efficiently" data-route="/using-ai-efficiently">Using AI</a>
+          <a class="spa-link nav-impact" href="/ai-impact" data-route="/ai-impact">AI's Impact</a>
+          <a class="spa-link" href="/about" data-route="/about">About Us</a>
+        </nav>
+      </div>
+    </header>
 
-                <section class="blog-layout" aria-label="Blog posts">
-                    <div class="blog-index" data-blog-list></div>
-                </section>
+    <main id="app" class="app" tabindex="-1" aria-live="polite"></main>
 
-                <article class="article-shell" data-article-mount aria-live="polite"></article>
-            </main>
-
-            <footer id="about" class="site-footer content-width">
-                <p>
-                    Signal &amp; Structure is a small editorial blog about technology, AI, and the craft of building
-                    useful tools.
-                </p>
-            </footer>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <a class="wordmark wordmark-footer spa-link" href="/" aria-label="The AI Spectrum home">
+            <span class="wordmark-the">THE</span><span class="wordmark-ai">AI</span><span class="wordmark-spectrum">SPECTRUM</span><span class="wordmark-mark" aria-hidden="true"></span>
+          </a>
+          <p>AI, across the full spectrum.</p>
         </div>
+        <div class="footer-lenses" aria-label="Editorial areas">
+          <a class="spa-link" href="/implementation-of-ai"><span class="dot dot-infrastructure"></span>Infrastructure</a>
+          <a class="spa-link" href="/using-ai-efficiently"><span class="dot dot-use"></span>Use</a>
+          <a class="spa-link" href="/ai-impact"><span class="dot dot-impact"></span>Impact</a>
+        </div>
+        <p class="footer-note">Built as an independent student publication about the systems, practices, and consequences shaping artificial intelligence.</p>
+      </div>
+    </footer>
+  </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.11/purify.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.11/purify.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="/script.js"></script>
+</body>
 </html>

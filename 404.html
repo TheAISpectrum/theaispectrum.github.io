@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07090d" />
+  <title>404 | The AI Spectrum</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body class="standalone-404">
+  <main class="error-page">
+    <div class="error-signal" aria-hidden="true"><span>4</span><i></i><span>4</span></div>
+    <p class="kicker">SIGNAL LOST // ROUTE NOT FOUND</p>
+    <h1>This part of the spectrum is <em>dark.</em></h1>
+    <p>The address you entered does not map to a published page. The signal may have moved, or it may never have existed.</p>
+    <a href="/" class="button-primary">Return to the spectrum <span aria-hidden="true">→</span></a>
+    <div class="error-readout"><span>HTTP 404</span><span>THEAISPECTRUM.GITHUB.IO</span></div>
+  </main>
+
+  <script>
+    const cleanPath = location.pathname.replace(/\/+$/, '') || '/';
+    const knownStaticRoutes = ['/', '/implementation-of-ai', '/using-ai-efficiently', '/ai-impact', '/about'];
+    const looksLikeBlog = /^\/blogs\/(implementation-of-ai|using-ai-efficiently|ai-impact)\/[a-z0-9-]+$/.test(cleanPath);
+    if (knownStaticRoutes.includes(cleanPath) || looksLikeBlog) {
+      fetch('/blog/index.json')
+        .then(r => r.ok ? r.json() : { posts: [] })
+        .then(data => {
+          if (knownStaticRoutes.includes(cleanPath) || (looksLikeBlog && (data.posts || []).some(post => `/blogs/${post.category}/${post.slug}` === cleanPath))) {
+            location.replace('/?route=' + encodeURIComponent(cleanPath));
+          }
+        })
+        .catch(() => {});
+    }
+  </script>
+</body>
+</html>

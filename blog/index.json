@@ -1,25 +1,37 @@
 {
-    "posts": [
-        {
-            "title": "The Case for Quiet AI",
-            "date": "2026-09-01",
-            "excerpt": "AI works best when it is calm, useful, and respectful of the craft it is helping with.",
-            "path": "the-case-for-quiet-ai.md",
-            "slug": "the-case-for-quiet-ai"
-        },
-        {
-            "title": "What Good AI Looks Like in a Team",
-            "date": "2026-08-20",
-            "excerpt": "Strong AI adoption is less about hype and more about clear workflows, boundaries, and trust.",
-            "path": "what-good-ai-looks-like-in-a-team.md",
-            "slug": "what-good-ai-looks-like-in-a-team"
-        },
-        {
-            "title": "Why Interfaces Matter More Than Models",
-            "date": "2026-08-08",
-            "excerpt": "A great model can still fail if the product around it is confusing, slow, or emotionally exhausting.",
-            "path": "why-interfaces-matter-more-than-models.md",
-            "slug": "why-interfaces-matter-more-than-models"
-        }
-    ]
+  "posts": [
+    {
+      "title": "The Case for Quiet AI",
+      "date": "2026-09-01",
+      "excerpt": "The best AI workflows are not the loudest. They remove friction without removing judgment.",
+      "path": "the-case-for-quiet-ai.md",
+      "slug": "the-case-for-quiet-ai",
+      "category": "using-ai-efficiently",
+      "categoryLabel": "Using AI",
+      "author": "The AI Spectrum",
+      "featureImage": "/images/quiet-ai-workflow.png"
+    },
+    {
+      "title": "AI Has a Physical Address",
+      "date": "2026-08-28",
+      "excerpt": "Every prompt ultimately reaches metal, electricity, cooling systems, networks, and land.",
+      "path": "ai-has-a-physical-address.md",
+      "slug": "ai-has-a-physical-address",
+      "category": "implementation-of-ai",
+      "categoryLabel": "AI Infrastructure",
+      "author": "The AI Spectrum",
+      "featureImage": "/images/datacenter-aisle.png"
+    },
+    {
+      "title": "Convenience Has a Cost",
+      "date": "2026-08-22",
+      "excerpt": "AI can accelerate work while redistributing risk, attention, labor, and responsibility.",
+      "path": "convenience-has-a-cost.md",
+      "slug": "convenience-has-a-cost",
+      "category": "ai-impact",
+      "categoryLabel": "AI's Impact",
+      "author": "The AI Spectrum",
+      "featureImage": "/images/ai-impact-human.png"
+    }
+  ]
 }
