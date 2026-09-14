@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "the-cloud-has-a-footprint",
+    "title": "The cloud has a footprint",
+    "excerpt": "Behind every seamless answer is a very physical system. Let’s follow the energy back to its source.",
+    "area": "environment",
+    "date": "2026-09-14",
+    "author": "founder-1",
+    "file": "content/posts/the-cloud-has-a-footprint.md",
+    "image": "assets/environment.svg",
+    "imageAlt": "Green contour lines surrounding a geometric computing core",
+    "sample": true
+  },
+  {
+    "slug": "intelligence-leaves-the-screen",
+    "title": "When intelligence leaves the screen",
+    "excerpt": "Sensors, robots, and the messy reality of putting an algorithm into motion.",
+    "area": "physical-ai",
+    "date": "2026-09-13",
+    "author": "founder-2",
+    "file": "content/posts/intelligence-leaves-the-screen.md",
+    "image": "assets/physical-ai.svg",
+    "imageAlt": "Orange articulated robot arm reaching toward a small object",
+    "sample": true
+  },
+  {
+    "slug": "a-better-first-draft",
+    "title": "A better first draft. Still your final say.",
+    "excerpt": "A practical way to use AI for everyday work while keeping yourself in the driver’s seat.",
+    "area": "productivity",
+    "date": "2026-09-12",
+    "author": "founder-3",
+    "file": "content/posts/a-better-first-draft.md",
+    "image": "assets/productivity.svg",
+    "imageAlt": "Blue lines becoming an organized stack of documents",
+    "sample": true
+  },
+  {
+    "slug": "the-cost-of-skipping-the-struggle",
+    "title": "The cost of skipping the struggle",
+    "excerpt": "If a machine does the thinking, what happens to the habits that help us think for ourselves?",
+    "area": "cognition",
+    "date": "2026-09-11",
+    "author": "founder-4",
+    "file": "content/posts/the-cost-of-skipping-the-struggle.md",
+    "image": "assets/cognition.svg",
+    "imageAlt": "Purple connections fading across an abstract network of thought",
+    "sample": true
+  }
+]
