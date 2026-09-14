@@ -17,12 +17,14 @@ A dark, responsive publication built with vanilla HTML, CSS, and JavaScript. No 
   "date": "2026-09-15",
   "author": "founder-1",
   "file": "content/posts/my-new-story.md",
-  "image": "assets/my-cover.jpg",
-  "imageAlt": "A specific description of what the cover shows"
+  "thumbnail": "assets/my-thumbnail.jpg",
+  "thumbnailAlt": "A description of the thumbnail",
+  "heroImage": "assets/my-hero.jpg",
+  "heroImageAlt": "A description of the large article image"
 }
 ```
 
-4. Add your cover image to `assets/`. Use the exact path and capitalization in the JSON. Any standard web image format works, including JPG, PNG, WebP, and SVG. Landscape covers around 1400 × 800 pixels work well.
+4. Add your thumbnail and hero images to `assets/`. Use the exact paths and capitalization in the JSON. Any standard web image format works, including JPG, PNG, WebP, and SVG. Use landscape thumbnails around 1400 × 800 pixels; wider hero images around 1800 × 750 pixels suit the article layout.
 5. Commit and push to `main`. GitHub Pages publishes the updated files. Posts automatically sort by date, newest first, on the home page and their theme page. Keep dates in `YYYY-MM-DD` format. Future dates do not schedule publication: listed posts are visible immediately.
 
 Each post belongs to **exactly one** area. Use one of these values:
@@ -30,11 +32,26 @@ Each post belongs to **exactly one** area. Use one of these values:
 | `area` value | Theme |
 | --- | --- |
 | `environment` | Environmental costs of AI |
-| `physical-ai` | Physical implementation of AI |
+| `physical-ai` | AI chips, servers, and data centre infrastructure |
 | `productivity` | AI for productivity |
 | `cognition` | AI’s negative impacts on human cognition |
 
 Slugs must be unique; use lowercase letters, numbers, and hyphens. Author IDs refer to `content/site.json`. Remove an article’s object from the list to unpublish it. Set `"sample": true` only if you want the visible sample label.
+
+## Replace a blog thumbnail or hero image
+
+In `content/posts.json`, each post has independent image settings:
+
+- `thumbnail`: the image on the home, theme, founder, and related-story cards.
+- `thumbnailAlt`: a description of that image.
+- `heroImage`: the large image at the top of the individual article.
+- `heroImageAlt`: a description of the article image.
+
+Upload your files to `assets/` (or a subfolder), update those paths, then commit and push. You may use the same file for both settings or choose different images. If `heroImage` is omitted, the thumbnail is used. The original `image` and `imageAlt` fields remain supported as fallbacks for older post entries.
+
+The diagrams are **theme illustrations**, also used as **placeholder thumbnails and hero images** in the four sample posts. Updating a post’s image paths does not change its theme page illustration. To change a theme illustration itself, replace `assets/environment.svg`, `assets/physical-ai.svg`, `assets/productivity.svg`, or `assets/cognition.svg`, and update its description in `illustrations` in `script.js`. The homepage prism is separate: `assets/spectrum.svg`.
+
+For images inside the article body, use Markdown as shown below.
 
 ## Markdown examples
 
@@ -108,6 +125,6 @@ Save. Subsequent pushes to `main` publish automatically. `.nojekyll` ensures the
 - `content/posts/*.md` — article bodies
 - `content/site.json` — founder names, images, and bios
 - `assets/` — original SVG illustrations and your images
-- `vendor/` — pinned Marked 15.0.12 parser and its license
+- `vendor/` — pinned Marked 15.0.12 parser and Font Awesome Free 6.7.2 arrow icons, with their licenses
 
 The four starter articles are labeled samples. Review or replace them before presenting them as your team’s own writing. Factual sample stories link to their sources, and the cognition article distinguishes reported associations from causal claims.

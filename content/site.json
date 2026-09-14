@@ -1,8 +1,52 @@
 {
   "founders": [
-    {"id":"founder-1","name":"Founder One","area":"environment","line":"Looking at the footprint behind the interface.","image":"assets/founders/founder-1.svg","imageAlt":"Illustrated placeholder portrait for Founder One","bio":["This is a placeholder profile for the team member covering the environmental costs of AI. Replace it with their name, a short introduction, and what sparked their interest in this subject.","Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."]},
-    {"id":"founder-2","name":"Founder Two","area":"physical-ai","line":"Exploring what happens when intelligence meets the world.","image":"assets/founders/founder-2.svg","imageAlt":"Illustrated placeholder portrait for Founder Two","bio":["This is a placeholder profile for the team member covering the physical implementation of AI. Replace it with their name, a short introduction, and what sparked their interest in this subject.","Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."]},
-    {"id":"founder-3","name":"Founder Three","area":"productivity","line":"Finding useful tools without losing human judgment.","image":"assets/founders/founder-3.svg","imageAlt":"Illustrated placeholder portrait for Founder Three","bio":["This is a placeholder profile for the team member covering AI for productivity. Replace it with their name, a short introduction, and what sparked their interest in this subject.","Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."]},
-    {"id":"founder-4","name":"Founder Four","area":"cognition","line":"Questioning what we lose when we outsource our thinking.","image":"assets/founders/founder-4.svg","imageAlt":"Illustrated placeholder portrait for Founder Four","bio":["This is a placeholder profile for the team member covering AI’s negative impacts on human cognition. Replace it with their name, a short introduction, and what sparked their interest in this subject.","Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."]}
+    {
+      "id": "founder-1",
+      "name": "Founder One",
+      "area": "environment",
+      "line": "Looking at the footprint behind the interface.",
+      "image": "assets/founders/founder-1.svg",
+      "imageAlt": "Illustrated placeholder portrait for Founder One",
+      "bio": [
+        "This is a placeholder profile for the team member covering the environmental costs of AI. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
+        "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+      ]
+    },
+    {
+      "id": "founder-2",
+      "name": "Founder Two",
+      "area": "physical-ai",
+      "line": "Following AI from the silicon chip to the data centre.",
+      "image": "assets/founders/founder-2.svg",
+      "imageAlt": "Illustrated placeholder portrait for Founder Two",
+      "bio": [
+        "This is a placeholder profile for the team member covering AI chips, servers, and data centre infrastructure. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
+        "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+      ]
+    },
+    {
+      "id": "founder-3",
+      "name": "Founder Three",
+      "area": "productivity",
+      "line": "Finding useful tools without losing human judgment.",
+      "image": "assets/founders/founder-3.svg",
+      "imageAlt": "Illustrated placeholder portrait for Founder Three",
+      "bio": [
+        "This is a placeholder profile for the team member covering AI for productivity. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
+        "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+      ]
+    },
+    {
+      "id": "founder-4",
+      "name": "Founder Four",
+      "area": "cognition",
+      "line": "Questioning what we lose when we outsource our thinking.",
+      "image": "assets/founders/founder-4.svg",
+      "imageAlt": "Illustrated placeholder portrait for Founder Four",
+      "bio": [
+        "This is a placeholder profile for the team member covering AI’s negative impacts on human cognition. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
+        "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+      ]
+    }
   ]
 }

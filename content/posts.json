@@ -7,21 +7,25 @@
     "date": "2026-09-14",
     "author": "founder-1",
     "file": "content/posts/the-cloud-has-a-footprint.md",
-    "image": "assets/environment.svg",
-    "imageAlt": "Green contour lines surrounding a geometric computing core",
-    "sample": true
+    "sample": true,
+    "thumbnail": "assets/environment.svg",
+    "thumbnailAlt": "Green contour lines surrounding a geometric computing core",
+    "heroImage": "assets/environment.svg",
+    "heroImageAlt": "Green contour lines surrounding a geometric computing core"
   },
   {
     "slug": "intelligence-leaves-the-screen",
-    "title": "When intelligence leaves the screen",
-    "excerpt": "Sensors, robots, and the messy reality of putting an algorithm into motion.",
+    "title": "The hardware behind the intelligence",
+    "excerpt": "From AI chips to data centres: a look inside the physical systems that make a digital answer possible.",
     "area": "physical-ai",
     "date": "2026-09-13",
     "author": "founder-2",
     "file": "content/posts/intelligence-leaves-the-screen.md",
-    "image": "assets/physical-ai.svg",
-    "imageAlt": "Orange articulated robot arm reaching toward a small object",
-    "sample": true
+    "sample": true,
+    "thumbnail": "assets/physical-ai.svg",
+    "thumbnailAlt": "An AI chip connected to rows of data centre servers",
+    "heroImage": "assets/physical-ai.svg",
+    "heroImageAlt": "An AI chip connected to rows of data centre servers"
   },
   {
     "slug": "a-better-first-draft",
@@ -31,9 +35,11 @@
     "date": "2026-09-12",
     "author": "founder-3",
     "file": "content/posts/a-better-first-draft.md",
-    "image": "assets/productivity.svg",
-    "imageAlt": "Blue lines becoming an organized stack of documents",
-    "sample": true
+    "sample": true,
+    "thumbnail": "assets/productivity.svg",
+    "thumbnailAlt": "Blue lines becoming an organized stack of documents",
+    "heroImage": "assets/productivity.svg",
+    "heroImageAlt": "Blue lines becoming an organized stack of documents"
   },
   {
     "slug": "the-cost-of-skipping-the-struggle",
@@ -43,8 +49,10 @@
     "date": "2026-09-11",
     "author": "founder-4",
     "file": "content/posts/the-cost-of-skipping-the-struggle.md",
-    "image": "assets/cognition.svg",
-    "imageAlt": "Purple connections fading across an abstract network of thought",
-    "sample": true
+    "sample": true,
+    "thumbnail": "assets/cognition.svg",
+    "thumbnailAlt": "Purple connections fading across an abstract network of thought",
+    "heroImage": "assets/cognition.svg",
+    "heroImageAlt": "Purple connections fading across an abstract network of thought"
   }
 ]
