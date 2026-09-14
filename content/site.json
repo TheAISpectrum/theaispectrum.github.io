@@ -1,50 +1,11 @@
 {
     "founders": [
         {
-            "id": "founder-1",
-            "name": "Founder One",
-            "area": "environment",
-            "line": "Looking at the footprint behind the interface.",
-            "image": "assets/founders/founder-1.svg",
-            "imageAlt": "Illustrated placeholder portrait for Founder One",
-            "bio": [
-                "This is a placeholder profile for the team member covering the environmental costs of AI. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
-                "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
-            ],
-            "slug": "founder-one"
-        },
-        {
-            "id": "founder-2",
-            "name": "Founder Two",
-            "area": "physical-ai",
-            "line": "Following AI from the silicon chip to the data centre.",
-            "image": "assets/founders/founder-2.svg",
-            "imageAlt": "Illustrated placeholder portrait for Founder Two",
-            "bio": [
-                "This is a placeholder profile for the team member covering AI chips, servers, and data centre infrastructure. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
-                "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
-            ],
-            "slug": "founder-two"
-        },
-        {
-            "id": "founder-3",
-            "name": "Founder Three",
-            "area": "productivity",
-            "line": "Finding useful tools without losing human judgment.",
-            "image": "assets/founders/founder-3.svg",
-            "imageAlt": "Illustrated placeholder portrait for Founder Three",
-            "bio": [
-                "This is a placeholder profile for the team member covering AI for productivity. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
-                "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
-            ],
-            "slug": "founder-three"
-        },
-        {
             "id": "rishit-choudhary",
             "name": "Rishit Choudhary",
             "area": "cognition",
             "line": "Questioning what we lose when we outsource our thinking.",
-            "image": "assets/founders/founder-4.svg",
+            "image": "assets/founders/rishit-choudhary.png",
             "imageAlt": "Image of Rishit Choudhary",
             "bio": [
                 "## Hi! I am Rishit Choudhary",
@@ -65,6 +26,56 @@
                 "One last clarification: I don't want you to stop using AI. The purpose of my blogs is to raise awareness and provide strategies to preserve your critical thinking. I do not want you to completely abandon AI, as it has great potential when used properly."
             ],
             "slug": "rishit-choudhary"
+        },
+        {
+            "id": "aditya-gupta",
+            "name": "Aditya Gupta",
+            "area": "productivity",
+            "line": "Finding useful tools without losing human judgment.",
+            "image": "assets/founders/aditya-gupta.png",
+            "imageAlt": "Image of Aditya Gupta",
+            "bio": [
+                "## Hi! I’m Aditya Gupta",
+                "",
+                "### Who I Am",
+                "I am an expert in the research analysis of AI models while also being the founder of \"Produce\", my very own AI productivity startup. The partnership between user prompts and AI responses shows how artificial intelligence mimics human thought patterns, offering a unique window into synthetic cognition. As a research analyst, observing how the system tracks context and builds connections has shifted my focus from basic system outputs to the mechanics of artificial reasoning.",
+                "",
+                "### My Journey",
+                "After my college application came back to me in the mail, I was disappointed to learn that I had not gotten my desired subject stream. I got accepted into universities such as Stanford and John Hopkins, but MIT always stood out to me. So even though I got AI research instead of aerospace engineering, I went for it. For the first 2 years I hated the entire subject, but after we did a project in which we had to make our own AI model, I fell in love with the entire stream. Nearing the end of my years at MIT, I noticed that people had slowly started to blame AI for making bad content even when the problem lay in the user himself. This question slowly pushed me to make my own AI productivity app \"Produce\" and eventually co-found \"The AI Spectrum\".",
+                "",
+                "### What I Found",
+                "During the process of building my app and researching the best ways to use AI in 2026, I came across results that I believe no one else has found yet. Since I am not a guy who believes in gatekeeping, I started sharing my findings with others and slowly found a group of people all of whom had something to share with the world in respect to AI. That is when we all came together and founded \"The AI Spectrum\", a website which uncovers technical answers about AI in the most simplistic manner possible.",
+                "",
+                "### Why You Should Trust Me",
+                "I am a professional AI research analyst currently working for Google DeepMind. I cleared MIT alongside the batch of ’22 and went on to do a PhD at Stanford in ’23. Since then, I have switched between multiple well-known organizations such as Nvidia, OpenAI, and Anthropic. So I have my fair bit of experience in this field."
+            ],
+            "slug": "aditya-gupta"
+        },
+        {
+            "id": "founder-3",
+            "name": "Founder Three",
+            "area": "environment",
+            "line": "Looking at the footprint behind the interface.",
+            "image": "assets/founders/founder-3.svg",
+            "imageAlt": "Illustrated placeholder portrait for Founder Three",
+            "bio": [
+                "This is a placeholder profile for the team member covering the environmental costs of AI. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
+                "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+            ],
+            "slug": "founder-three"
+        },
+        {
+            "id": "founder-4",
+            "name": "Founder Four",
+            "area": "physical-ai",
+            "line": "Following AI from the silicon chip to the data centre.",
+            "image": "assets/founders/founder-4.svg",
+            "imageAlt": "Illustrated placeholder portrait for Founder Four",
+            "bio": [
+                "This is a placeholder profile for the team member covering AI chips, servers, and data centre infrastructure. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
+                "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+            ],
+            "slug": "founder-four"
         }
     ]
 }
