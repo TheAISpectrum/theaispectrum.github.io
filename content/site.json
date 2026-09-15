@@ -65,17 +65,17 @@
             "slug": "founder-three"
         },
         {
-            "id": "founder-4",
-            "name": "Founder Four",
+            "id": "shivansh-pathak",
+            "name": "Shivansh Pathak",
             "area": "physical-ai",
             "line": "Following AI from the silicon chip to the data centre.",
             "image": "assets/founders/founder-4.svg",
-            "imageAlt": "Illustrated placeholder portrait for Founder Four",
+            "imageAlt": "Image of Shivansh Pathak",
             "bio": [
                 "This is a placeholder profile for the team member covering AI chips, servers, and data centre infrastructure. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
                 "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
             ],
-            "slug": "founder-four"
+            "slug": "shivansh-pathak"
         }
     ]
 }
