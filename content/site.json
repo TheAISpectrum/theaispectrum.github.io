@@ -52,17 +52,31 @@
             "slug": "aditya-gupta"
         },
         {
-            "id": "founder-3",
-            "name": "Founder Three",
+            "id": "aaditia-chhitwal",
+            "name": "Aaditia Chhitwal",
             "area": "environment",
             "line": "Looking at the footprint behind the interface.",
             "image": "assets/founders/founder-3.svg",
-            "imageAlt": "Illustrated placeholder portrait for Founder Three",
+            "imageAlt": "Image of Aaditia Chhitwal",
             "bio": [
-                "This is a placeholder profile for the team member covering the environmental costs of AI. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
-                "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+                "## Hi! I am Aaditia Chhitwal",
+                "",
+                "### Who I Am",
+                "I work with Artificial Intelligence for a living, and I spend my days building and working with AI systems, the same kind of technology that powers tools like ChatGPT.",
+                "",
+                "### The Core Question",
+                "I started this blog because most people never think about what happens behind an AI chatbot. Every question you ask uses real electricity and real water, running through huge buildings called data centres. I wanted to explain this in simple terms, without confusing technical language, so more people can understand the true cost of AI.",
+                "",
+                "### What I Write About",
+                "I write about the environmental side of AI: the energy it consumes, the water it uses, the strain on data centres, and the wider impact this has on our planet. I want to make these issues easier to understand and more visible to the people using AI every day.",
+                "",
+                "### Why You Should Trust Me",
+                "I do not claim to know everything, but I have hands-on experience working with AI systems and I try to ground my writing in the real-world realities behind the technology. I focus on clear explanations, practical facts, and the bigger picture rather than hype or fear.",
+                "",
+                "### I Don't Want You to Stop Using AI",
+                "I am not here to say AI is bad. I just think people deserve to know the full picture, so we can build a future where AI is powerful and good for the planet."
             ],
-            "slug": "founder-three"
+            "slug": "aaditia-chhitwal"
         },
         {
             "id": "shivansh-pathak",
@@ -72,8 +86,22 @@
             "image": "assets/founders/founder-4.svg",
             "imageAlt": "Image of Shivansh Pathak",
             "bio": [
-                "This is a placeholder profile for the team member covering AI chips, servers, and data centre infrastructure. Replace it with their name, a short introduction, and what sparked their interest in this subject.",
-                "Use this space to share the questions they want to explore, their interests outside the blog, and the perspective they bring to The AI Spectrum."
+                "## Hi! I am Shivansh Pathak",
+                "",
+                "### Who I Am",
+                "I am interested in AI and Economics, especially in how these two areas are starting to connect. AI is becoming a bigger part of businesses, jobs, investing, and everyday life, which has made me curious about its broader impact on the economy. I want to understand not just how AI works, but how it could change the way people work, businesses operate, and economies grow.",
+                "",
+                "### The Core Question",
+                "I started with an interest in economics and how businesses, people, and governments make decisions. As AI became more common, I started wondering: How much will AI actually change the economy? Will it create more jobs than it replaces? Will it make businesses more productive? Could it increase the gap between rich and poor? These questions are what led me to research the economic impact of AI.",
+                "",
+                "### What I Write About",
+                "I write about how AI is affecting different parts of the economy. This includes topics like jobs, automation, productivity, businesses, financial markets, inequality, and economic growth. I try to look at both the positive and negative sides instead of simply saying that AI is good or bad.",
+                "",
+                "### Why You Should Trust Me",
+                "I don't expect people to believe everything I say just because I wrote it. I use research, data, and reports from reliable sources to support what I write. I also try to include different viewpoints so that readers can form their own opinions about AI and its impact on the economy.",
+                "",
+                "### I Don't Want You to Stop Using AI",
+                "I am not against AI. I think it can be extremely useful and has the potential to improve businesses, increase productivity, and create new opportunities. My goal is simply to understand its effects and make people more aware of how AI could change the economy in the future."
             ],
             "slug": "shivansh-pathak"
         }

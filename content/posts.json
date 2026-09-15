@@ -36,9 +36,9 @@
         "author": "aditya-gupta",
         "file": "content/posts/art-of-ai.md",
         "sample": false,
-        "thumbnail": "assets/productivity.svg",
+        "thumbnail": "assets/prod.png",
         "thumbnailAlt": "Blue lines becoming an organized stack of documents",
-        "heroImage": "assets/productivity.svg",
+        "heroImage": "assets/prod.png",
         "heroImageAlt": "Blue lines becoming an organized stack of documents"
     },
     {
